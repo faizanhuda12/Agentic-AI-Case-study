@@ -47,7 +47,7 @@ Logistics companies face critical operational bottlenecks when "Delivery Excepti
 
 The solution follows a distributed microservices pattern on Google Cloud Platform.
 
-![System Architecture](docs/images/agents-running-on-cloudrun-as-docker-containers.png)
+![System Architecture](docs/images/Agentic AI Archi.drawio.png)
 
 ### The Agent Swarm
 
