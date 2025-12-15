@@ -1,0 +1,6 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-f', 'Dockerfile.agent3', '-t', 'gcr.io/$PROJECT_ID/fedex-decision:latest', '.']
+images:
+  - 'gcr.io/$PROJECT_ID/fedex-decision:latest'
+

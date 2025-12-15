@@ -1,0 +1,13 @@
+# Requirements for Decision Agent (Agent 3)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic>=2.5.0
+
+# LangChain for LLM
+langchain>=0.1.0
+langchain-google-vertexai>=1.0.0
+langchain-core>=0.1.0
+
+# Google Cloud
+google-cloud-aiplatform>=1.38.0
+

@@ -1,0 +1,21 @@
+# Agent 4: Action Executor
+# Logs to Google Sheets and simulates notifications
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements/requirements_agent4.txt .
+RUN pip install --no-cache-dir -r requirements_agent4.txt
+
+# Copy application code
+COPY src/action_executor_api.py .
+COPY src/agents/ ./agents/
+
+# Expose port
+EXPOSE 8080
+
+# Run the API
+CMD ["uvicorn", "action_executor_api:app", "--host", "0.0.0.0", "--port", "8080"]
+

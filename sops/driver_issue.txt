@@ -1,0 +1,28 @@
+STANDARD OPERATING PROCEDURE – DRIVER ISSUE
+
+Purpose:
+To handle exceptions caused by driver-related constraints such as fatigue, minor accidents, vehicle breakdown, distraction, or safety compliance.
+
+Procedure:
+
+1. Immediate Safety Check
+   - Driver contacts dispatcher.
+   - Confirm driver is safe and unharmed.
+   - Remove driver from route if safety compromised.
+
+2. Document Incident
+   - Record reason: fatigue, illness, breakdown, police interaction, minor collision.
+   - Log timestamp and GPS coordinates.
+
+3. Route Continuity
+   - Reassign undelivered packages to backup driver where possible.
+   - If reassignment impossible, schedule next-day delivery.
+
+4. Customer Notification
+   - Automated message: “Unexpected operational delay – rescheduled.”
+
+5. Compliance Review
+   - If incident indicates a safety violation, escalate to fleet supervisor.
+
+6. Final Disposition
+   - Resume delivery only when driver is cleared to continue.

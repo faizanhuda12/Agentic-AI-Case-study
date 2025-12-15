@@ -1,0 +1,22 @@
+# LangGraph dependencies
+
+# LangGraph core
+langgraph>=0.0.20
+langchain-core>=0.1.0
+langchain>=0.1.0
+
+# Vertex AI LLM integration (for Decision Agent)
+langchain-google-vertexai>=1.0.0
+
+# HTTP requests (for Classification Agent)
+requests>=2.31.0
+
+# Google Sheets integration (for Action Executor Agent)
+gspread>=6.0.0
+google-auth>=2.0.0
+
+# Note: Also install requirements.txt and requirements_rag.txt
+# pip install -r requirements.txt
+# pip install -r requirements_rag.txt
+# pip install -r requirements_langgraph.txt
+

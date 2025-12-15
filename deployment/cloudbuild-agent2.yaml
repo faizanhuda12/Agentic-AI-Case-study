@@ -1,0 +1,6 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-f', 'Dockerfile.agent2', '-t', 'gcr.io/$PROJECT_ID/fedex-sop-retrieval:latest', '.']
+images:
+  - 'gcr.io/$PROJECT_ID/fedex-sop-retrieval:latest'
+

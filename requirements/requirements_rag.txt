@@ -1,0 +1,13 @@
+# Additional requirements for RAG and Vector Search
+
+# Google Cloud Vertex AI
+google-cloud-aiplatform>=1.38.0
+vertexai>=1.38.0
+
+# For embeddings
+google-cloud-aiplatform[langchain]>=1.38.0
+
+# Optional: For batch uploads to GCS
+gcsfs>=2023.10.0
+
+

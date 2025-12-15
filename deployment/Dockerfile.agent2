@@ -1,0 +1,35 @@
+# Dockerfile for Agent 2 - SOP Retrieval API
+# Uses Vertex AI Vector Search for RAG
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements and install
+COPY requirements/requirements_agent2.txt .
+RUN pip install --no-cache-dir -r requirements_agent2.txt
+
+# Copy application code
+COPY src/sop_retrieval_api.py .
+COPY src/rag_retrieval.py .
+
+# Copy SOP files
+COPY sops/ ./sops/
+
+# Expose port
+EXPOSE 8001
+
+# Set environment variables (defaults, override at runtime)
+ENV GCP_PROJECT_ID=agentic-ai-481216
+ENV GCP_REGION=us-central1
+ENV VERTEX_AI_ENDPOINT_ID=3201199516967501824
+ENV VERTEX_AI_DEPLOYED_INDEX_ID=fedex_sops_index_deployed
+
+# Run the API
+CMD ["uvicorn", "sop_retrieval_api:app", "--host", "0.0.0.0", "--port", "8001"]
+

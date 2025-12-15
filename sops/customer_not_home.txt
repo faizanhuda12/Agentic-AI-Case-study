@@ -1,0 +1,29 @@
+STANDARD OPERATING PROCEDURE – CUSTOMER NOT HOME
+
+Purpose:
+To manage failed delivery attempts when a signature is required or the customer is unavailable.
+
+Procedure:
+
+1. Verify Delivery Attempt
+   - Driver must knock/ring doorbell.
+   - Capture photo or leave door tag as proof of attempt.
+
+2. Customer Notification
+   - Automated SMS sent within 5 minutes.
+   - Note whether signature is required.
+
+3. Re-delivery Logic
+   - Residential: up to 3 attempts permitted.
+   - Commercial: up to 2 attempts permitted.
+   - Attempt must occur on consecutive business days unless customer requests otherwise.
+
+4. Station Hold Option
+   - Customer may request hold for pickup.
+   - Package held for 5 business days unless otherwise specified.
+
+5. Return-to-Sender Policy
+   - After 3 failed attempts (or 2 for commercial), return to shipper.
+
+6. Safety and Security
+   - Do not leave package unless driver receives explicit permission and release waiver is on file.

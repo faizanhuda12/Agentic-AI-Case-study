@@ -1,0 +1,11 @@
+# Agent 4: Action Executor dependencies
+
+# FastAPI for API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Google Sheets integration
+gspread>=6.0.0
+google-auth>=2.0.0
+

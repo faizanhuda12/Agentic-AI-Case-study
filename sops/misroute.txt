@@ -1,0 +1,29 @@
+STANDARD OPERATING PROCEDURE – MISROUTE
+
+Purpose:
+To correct situations where a package is sent to the wrong facility or placed on the wrong delivery route.
+
+Procedure:
+
+1. Identify Routing Error
+   - GPS mismatch with destination ZIP/Postal Code.
+   - Hub scan indicates incorrect region.
+
+2. Immediate Reroute
+   - Transfer package to correct outbound lane.
+   - If misroute found on driver route, return to station same day.
+
+3. Customer Communication
+   - Notify: “Package temporarily delayed due to routing error.”
+
+4. Internal Root Cause Analysis
+   - Check label readability.
+   - Examine sort sequence.
+   - Identify manual scanning mistakes.
+
+5. Resolution Timeline
+   - Domestic: deliver within +1 business day.
+   - International: may require customs resubmission.
+
+6. Final Disposition
+   - Mark as “Corrected Route” in system.

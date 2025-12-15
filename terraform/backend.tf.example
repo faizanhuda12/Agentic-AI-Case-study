@@ -1,0 +1,11 @@
+# Terraform Backend Configuration
+# Copy this to backend.tf and update with your GCS bucket
+
+terraform {
+  backend "gcs" {
+    bucket = "your-project-id-terraform-state"
+    prefix = "fedex-exception-classifier"
+  }
+}
+
+

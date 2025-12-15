@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# React / Frontend
+node_modules/
+/frontend/node_modules
+/frontend/build
+/frontend/.env
+.pnp
+.pnp.js
+coverage/
+.DS_Store
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+terraform.tfvars
+
+# Secrets and Credentials
+*.pem
+*.key
+creds/
+credentials/
+secrets/
+google_credentials.json
+
+# Ignore generic JSONs that might be keys, but allow project config
+# It is safer to ignore *credentials.json or similar patterns than *.json
+*credentials.json
+*service_account.json
+client_secret*.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db

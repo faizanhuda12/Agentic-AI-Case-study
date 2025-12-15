@@ -1,0 +1,25 @@
+# Dockerfile for Decision Agent (Agent 3)
+# Uses Gemini LLM to make operational decisions
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements/requirements_agent3.txt .
+RUN pip install --no-cache-dir -r requirements_agent3.txt
+
+# Copy application code
+COPY src/decision_api.py .
+
+# Expose port
+EXPOSE 8003
+
+# Environment variables
+ENV GCP_PROJECT_ID=agentic-ai-481216
+ENV GCP_REGION=us-central1
+ENV LLM_MODEL_NAME=gemini-2.0-flash
+
+# Run the API
+CMD ["uvicorn", "decision_api:app", "--host", "0.0.0.0", "--port", "8003"]
+

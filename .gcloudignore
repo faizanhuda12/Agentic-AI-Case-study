@@ -1,0 +1,62 @@
+# This file specifies files that are *not* uploaded to Google Cloud
+# using gcloud. It follows the same syntax as .gitignore
+
+# Frontend
+frontend/
+frontend/**
+node_modules/
+*.log
+
+# Terraform
+terraform/
+terraform/**
+
+# Jupyter notebooks
+*.ipynb
+
+# Large data files
+*.xlsx
+*.csv
+fedex_realistic_synthetic_50000.xlsx
+
+# Documentation
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Other
+*.docx
+~$*
+
+# Explicitly include sops folder
+!sops/
+!sops/**
+

@@ -1,0 +1,33 @@
+STANDARD OPERATING PROCEDURE – ACCESS ISSUE
+
+Purpose:
+To resolve cases where the driver cannot reach the customer’s door due to access restrictions such as locked gates, security codes, apartment buzzers, building closures, or restricted locations.
+
+Procedure:
+
+1. Retry Entry Attempt
+   - Attempt secondary entrances when safe.
+   - Check for callbox, buzzer, or unit number directory.
+   - For commercial addresses, request access from reception or service desk.
+
+2. Contact Customer
+   - Call customer once (no voicemail required).
+   - Send automated SMS requesting access code or gate instructions.
+   - If customer responds, driver may attempt immediate re-delivery.
+
+3. Document Access Issue
+   - Capture photo of blocked entry if applicable.
+   - Add driver note stating exact barrier (e.g., “Gate locked – no code provided”).
+
+4. Re-delivery Scheduling
+   - If access remains blocked, schedule a re-delivery within 24 hours.
+   - Mark package status: ACCESS_BLOCKED_RETRY.
+
+5. Escalation
+   - After 2 failed attempts, escalate to dispatcher.
+   - Dispatcher calls customer and confirms access availability for next attempt.
+   - If customer unreachable after 48 hours, hold at local station.
+
+6. Final Disposition
+   - Customer may pick up at station after 3 consecutive access failures.
+   - For repeated gated community failures, flag address for “Pre-call required”.

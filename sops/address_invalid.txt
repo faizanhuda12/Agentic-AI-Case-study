@@ -1,0 +1,29 @@
+STANDARD OPERATING PROCEDURE – ADDRESS INVALID
+
+Purpose:
+To address packages that cannot be delivered due to missing address components, incorrect formatting, wrong postal code, or unrecognized locations.
+
+Procedure:
+
+1. Validate Address Information
+   - Cross-check against navigation and FedEx Address Validation System.
+   - Verify street number, unit number, and postal code.
+
+2. Attempt Customer Contact
+   - Call customer to obtain correct address.
+   - Send automated SMS requesting updated address details.
+
+3. Update Address (If Provided)
+   - Driver or dispatcher updates address in system.
+   - If correction moves delivery outside current route, schedule next-day attempt.
+
+4. Return to Station
+   - If address cannot be verified same day, return package to station.
+   - Station clerk performs secondary validation against USPS/CanadaPost master data.
+
+5. Escalation Policy
+   - After 48 hours with no correction, notify shipper.
+   - Mark package as “Address Correction Needed”.
+
+6. Final Disposition
+   - If shipper does not respond within 5 days, initiate return-to-sender.

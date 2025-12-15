@@ -1,0 +1,10 @@
+# Requirements for Agent 2 - SOP Retrieval API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic>=2.5.0
+
+# Google Cloud for Vertex AI Vector Search
+google-cloud-aiplatform>=1.38.0
+vertexai>=1.38.0
+google-cloud-storage>=2.10.0
+

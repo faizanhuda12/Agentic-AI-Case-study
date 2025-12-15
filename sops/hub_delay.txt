@@ -1,0 +1,30 @@
+STANDARD OPERATING PROCEDURE – HUB DELAY
+
+Purpose:
+To manage delays caused during sorting, scanning, or loading operations at a distribution hub.
+
+Procedure:
+
+1. Identify Delay Type
+   - Sorting machine backlog
+   - Staffing shortage
+   - High package volume
+   - Late linehaul arrival
+
+2. Segregate Delayed Packages
+   - Label “Hub Delay — Priority”
+   - Prioritize for next available vehicle.
+
+3. Customer Notification
+   - Deferred delivery update: “Package delayed at sorting facility.”
+
+4. Internal Escalation
+   - If delay exceeds 24 hours, station manager reviews capacity allocation.
+   - Investigate machine error logs if mechanical fault suspected.
+
+5. Recovery Procedure
+   - Add to early-morning “Recovery Route”.
+   - Ensure package bypasses nonessential scans.
+
+6. Final Disposition
+   - Deliver next business day.

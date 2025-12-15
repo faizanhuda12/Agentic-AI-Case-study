@@ -1,0 +1,28 @@
+STANDARD OPERATING PROCEDURE – SYSTEM ERROR
+
+Purpose:
+To handle failures caused by scanning errors, corrupted labels, duplicate tracking IDs, or system outages.
+
+Procedure:
+
+1. Identify Failure
+   - Barcode unreadable
+   - No scan event for > 24 hours
+   - Duplicate tracking record detected
+
+2. Re-scan Attempts
+   - Try backup scanner.
+   - Manually enter tracking ID.
+
+3. IT Escalation
+   - If issue persists, open ticket with ops IT team.
+   - Attach photo of label.
+
+4. Customer Update
+   - Notify: “Package processing issue – resolution in progress.”
+
+5. Recovery
+   - Once tracking corrected, prioritize movement.
+
+6. Security
+   - Verify package identity before dispatch.

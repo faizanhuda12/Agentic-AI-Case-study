@@ -1,0 +1,31 @@
+STANDARD OPERATING PROCEDURE – PACKAGE DAMAGE
+
+Purpose:
+To manage incidents where the package appears crushed, torn, wet, leaking, or compromised.
+
+Procedure:
+
+1. Assessment
+   - Determine severity: Minor, Moderate, Critical.
+   - Check for hazardous material leakage.
+
+2. Customer Notification
+   - For minor damage, attempt delivery with customer consent.
+   - For major damage, hold at station for shipper review.
+
+3. Documentation
+   - Take photos of all sides.
+   - Add incident note with timestamp.
+
+4. Shipper Instructions
+   - Contact shipper for handling preference:
+       - Deliver as-is
+       - Return to station
+       - Return-to-sender
+       - Dispose (if allowed)
+
+5. Safety Protocol
+   - For hazardous material leakage, activate HAZMAT SOP.
+
+6. Final Disposition
+   - Deliver or return based on shipper decision.

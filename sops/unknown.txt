@@ -1,0 +1,25 @@
+STANDARD OPERATING PROCEDURE – UNKNOWN EXCEPTION
+
+Purpose:
+To address situations where the cause of delivery failure cannot be determined.
+
+Procedure:
+
+1. Review Driver Notes
+   - Confirm no contradictory information.
+   - Contact driver for clarification.
+
+2. System Cross-Check
+   - Validate GPS logs.
+   - Validate scan history.
+   - Validate address metadata.
+
+3. Customer Outreach
+   - Request confirmation of availability and address.
+
+4. Dispatch Review
+   - Dispatcher chooses most reasonable attempt strategy.
+
+5. Final Disposition
+   - Schedule re-delivery next business day.
+   - Flag package for manual monitoring.
